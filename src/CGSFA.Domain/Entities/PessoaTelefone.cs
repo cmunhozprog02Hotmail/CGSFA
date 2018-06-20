@@ -8,6 +8,10 @@ namespace CGSFA.Domain.Entities
     {
         public long? TelefoneId { get; set; }
 
+        public string Numero { get; set; }
+
+        public bool Principal { get; set; }
+
         
     }
 }

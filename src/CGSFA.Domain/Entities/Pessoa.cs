@@ -14,6 +14,12 @@ namespace CGSFA.Domain.Entities
 
         public bool Dizimista { get; set; }
 
+        public DateTime DataNascimento { get; set; }
+
+        public DateTime DataCadastro { get; set; }
+
+        public DateTime DataAlteracao { get; set; }
+
         public bool Ativo { get; set; }
 
        
